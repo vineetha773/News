@@ -32,4 +32,4 @@
 ![Mobile Screenshot](images/mobile-view.png)
 
 *Breaking News Slider (GIF Example)*  
-![Slider Animation](images/slider-animation.gif)
+![Slider Animation](<img width="1919" height="1005" alt="Image" src="https://github.com/user-attachments/assets/9bf63e1b-ebdd-44ef-b862-4c80cac2a4dd" />)
