@@ -21,6 +21,8 @@
 ---
 
 ## Screenshots
+*Breaking News Slider (GIF Example)*  
+<img width="1919" height="1005" alt="Image" src="https://github.com/user-attachments/assets/9bf63e1b-ebdd-44ef-b862-4c80cac2a4dd" />
 
 *Light Mode*  
 <img width="1919" height="1005" alt="Image" src="https://github.com/user-attachments/assets/e72da998-1713-42b9-a2cf-cc8ea2731bf4" />
@@ -28,8 +30,4 @@
 *Dark Mode*  
 ![Dark Mode](images/dark-mode.png)
 
-*Mobile View*  
-![Mobile Screenshot](images/mobile-view.png)
 
-*Breaking News Slider (GIF Example)*  
-![Slider Animation](<img width="1919" height="1005" alt="Image" src="https://github.com/user-attachments/assets/9bf63e1b-ebdd-44ef-b862-4c80cac2a4dd" />)
