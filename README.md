@@ -23,7 +23,7 @@
 ## Screenshots
 
 *Light Mode*  
-![Light Mode](images/light-mode.png)
+<img width="1919" height="1005" alt="Image" src="https://github.com/user-attachments/assets/e72da998-1713-42b9-a2cf-cc8ea2731bf4" />
 
 *Dark Mode*  
 ![Dark Mode](images/dark-mode.png)
