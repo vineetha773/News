@@ -28,6 +28,6 @@
 <img width="1919" height="1005" alt="Image" src="https://github.com/user-attachments/assets/e72da998-1713-42b9-a2cf-cc8ea2731bf4" />
 
 *Dark Mode*  
-![Dark Mode](images/dark-mode.png)
+<img width="1914" height="1006" alt="Image" src="https://github.com/user-attachments/assets/e2a8c733-61e0-4929-9f0b-3a48a2c0ac91" />
 
 
