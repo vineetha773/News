@@ -1,0 +1,162 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:linear-gradient(135deg,#d16ba5,#5ffbf1);
+min-height:100vh;
+color:black;
+}
+
+/* Header */
+
+header{
+text-align:center;
+padding:25px;
+background:rgba(255,255,255,0.2);
+backdrop-filter:blur(10px);
+}
+
+#modeToggle{
+position:absolute;
+right:20px;
+top:20px;
+padding:8px 12px;
+cursor:pointer;
+border:none;
+border-radius:20px;
+}
+
+/* Search */
+
+.search-box{
+margin:15px;
+}
+
+.search-box input{
+padding:10px;
+width:250px;
+border-radius:20px;
+border:none;
+}
+
+.search-box button{
+padding:10px 15px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* Nav */
+
+nav button{
+margin:5px;
+padding:10px;
+border:none;
+border-radius:15px;
+cursor:pointer;
+}
+
+/* Breaking news */
+
+.breaking{
+background:red;
+color:white;
+padding:10px;
+text-align:center;
+font-weight:bold;
+}
+
+/* Slider */
+
+.slider{
+display:flex;
+overflow-x:auto;
+gap:15px;
+padding:20px;
+}
+
+.slide{
+min-width:250px;
+background:rgba(255,255,255,0.3);
+border-radius:10px;
+padding:10px;
+}
+
+/* News cards */
+
+.news-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.3);
+border-radius:10px;
+padding:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img{
+width:100%;
+height:150px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.card h3{
+margin:10px 0;
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+color:white;
+background:black;
+padding:6px 12px;
+border-radius:15px;
+text-decoration:none;
+}
+
+.card button{
+margin-top:8px;
+padding:6px 10px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+/* Dark mode */
+
+body.dark{
+background:#121212;
+color:white;
+}
+
+body.dark .card{
+background:#1e1e1e;
+}
+
+body.dark nav button{
+background:#333;
+color:white;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.news-container{
+grid-template-columns:1fr;
+}
+
+.search-box input{
+width:180px;
+}
+
+}
