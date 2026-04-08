@@ -15,7 +15,17 @@
 <h1>NewsSphere</h1>
 
 <button id="modeToggle">🌙</button>
+<div id="breakingNews" class="breaking"></div>
 
+<h2 class="section-title">Trending</h2>
+<div id="trendingSlider" class="slider"></div>
+<div class="weather-box">
+    <h3>🌤 Weather</h3>
+    <input type="text" id="cityInput" placeholder="Enter city">
+    <button onclick="getWeather()">Check</button>
+
+    <div id="weatherResult"></div>
+</div>
 <div class="search-box">
 <input type="text" id="searchInput" placeholder="Search news...">
 <button onclick="goToSearch()">Search</button>
@@ -32,10 +42,7 @@
 
 </header>
 
-<div id="breakingNews" class="breaking"></div>
 
-<h2 class="section-title">Trending</h2>
-<div id="trendingSlider" class="slider"></div>
 
 <main>
 <div id="newsContainer" class="news-container"></div>
