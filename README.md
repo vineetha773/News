@@ -30,4 +30,7 @@
 *Dark Mode*  
 <img width="1914" height="1006" alt="Image" src="https://github.com/user-attachments/assets/e2a8c733-61e0-4929-9f0b-3a48a2c0ac91" />
 
+*Wheather forecast*  
+<img width="960" height="504" alt="Image" src="https://github.com/user-attachments/assets/5bbc275c-0562-41c2-ae07-4da62d75383e" />
+
 
