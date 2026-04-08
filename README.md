@@ -16,7 +16,7 @@
 ---
 
 ## Live Demo
-[View NewsSphere Live](vineetha773.github.io/News/)
+[View NewsSphere Live](https://vineetha773.github.io/News/)
 
 ---
 
