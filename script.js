@@ -1,3 +1,24 @@
+const WEATHER_API = "0e76b3ae1cebe6ee70f659594c15670f";
+
+async function getWeather(){
+
+const city = document.getElementById("cityInput").value;
+
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${WEATHER_API}`;
+
+const response = await fetch(url);
+const data = await response.json();
+
+const weatherBox = document.getElementById("weatherResult");
+
+weatherBox.innerHTML = `
+<p>📍 ${data.name}</p>
+<p>🌡 Temp: ${data.main.temp} °C</p>
+<p>☁ Weather: ${data.weather[0].main}</p>
+<p>💨 Wind: ${data.wind.speed} km/h</p>
+`;
+
+}
 const API_KEY = "c52bd918eae40d9cd640a0871f2ce481";
 
 const container = document.getElementById("newsContainer");
